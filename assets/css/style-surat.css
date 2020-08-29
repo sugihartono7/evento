@@ -1,0 +1,112 @@
+/* css utk view surat acara */ 
+
+@page {
+   /*  
+   size:8.5in × 11.0in;
+   orphans: 60px;
+   margin-top: 1.1cm;
+	
+	margin-bottom: 1cm;margin-left: 0cm;
+   */
+	
+	
+}
+
+
+body {
+	font-color:#000;
+	font-family: bookantiqua;
+	font-size:12px;
+	page-break-before: auto;
+}
+
+table tr td {
+	font-family: bookantiqua;
+	font-size:12px;
+}
+
+p{
+	
+}
+
+p.create_date{
+	
+	margin-bottom:10px;	
+}
+
+.view_acara table ,td {
+	text-align:left; 
+	padding-left: 0px;
+}
+
+table.head_acara td{
+	min-width:10px;
+	vertical-align:top;
+}
+
+table.view_acara{
+	margin-left:40px;
+
+}
+
+table.view_acara td{
+	vertical-align: top;
+	padding:0px;
+	
+}
+
+.newspaper{
+    width: 100%;
+    margin-top:0px;
+    page-break-inside: always;
+}
+
+.newspaper_fix{
+    width: 100%;
+    margin-top:0px;
+    page-break-inside: auto;    
+}
+
+.div_calc{
+	page-break-inside:avoid;width:45%;
+}
+.div_gold{
+	page-break-inside:avoid;width:45%;
+}
+
+.notes{
+	font-size:12px;
+}
+
+table.tb_event_date td, table.tb_event_same_date td{
+    font-weight:bold;
+    text-align:left; 
+    padding-left: 0px;
+}
+
+table.tb_event_location td, table.tb_tillcode td, table.tb_event_same_location td{
+    text-align:left; 
+    padding-left: 0px;
+}
+
+#ttd{
+	/*page-break-before: always;*/
+	page-break-inside:avoid;
+}
+
+
+.pdf_footer {
+    page-break-inside:auto;
+}
+
+.pdf_notes {
+    page-break-inside:avoid;
+}
+
+#penutup-all{
+	 page-break-inside:avoid;
+}
+
+#lampiran-cc{
+	 page-break-inside:avoid;
+}

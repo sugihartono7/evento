@@ -1,0 +1,6 @@
+# refresh site
+0 6 * * * /var/www/evento/exe/refresh_store.sh >> /var/www/evento/exe/refresh_store.log 2>> /var/www/evento/exe/refresh_store.err
+
+# load evento propose from venditore application
+5 8,10,12,14,16 * * * /var/www/evento/exe/refresh_evento_propose.sh >> /var/www/evento/exe/refresh_evento_propose.log 2>> /var/www/evento/exe/refresh_evento_propose.err
+#1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59 8,9,10,11,12,13,14,15,16 * * * /var/www/evento/exe/refresh_evento_propose.sh >> /var/www/evento/exe/refresh_evento_propose.log 2>> /var/www/evento/exe/refresh_evento_propose.err
